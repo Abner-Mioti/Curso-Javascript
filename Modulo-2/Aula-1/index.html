@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curso de JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1 id="titulo" onclick="clicou()"> Seja bem vindo</h1>
+
+     <h1 id="titulo" onmouseover="console.log('Passou o mouse')"> Seja bem vindo</h1>
+
+     <h1 id="titulo" onmouseout="console.log('Tirou o mouse')"> Seja bem vindo</h1>
+
+     <input id="campo" type="text" name="usuario" value="Nome do usuário" />
+
+     <button onclick="clicou()">Clieque em mim</button>
+
+     <button onclick="mudarTitulo()">Clieque em mim</button>
+
+     <button onclick="document.getElementById('titulo').innerHTML='Texto 2'">Clieque em mim</button>
+
+     <button onclick="this.innerHTML ='Clicou'">Clieque em mim</button>
+
+     <script src="script.js"></script>
+</body>
+</html>        
