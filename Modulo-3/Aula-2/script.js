@@ -1,0 +1,1 @@
+document.getElementById('exemplo').innerHTML = "Davi <button>Botão</button>";
